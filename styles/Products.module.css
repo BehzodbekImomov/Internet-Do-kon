@@ -43,6 +43,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-decoration: none;
+}
+.catalogue_btn:hover{
+  border: 1px solid #d79453;
+  
 }
 .products_cards {
   display: flex;
@@ -68,6 +73,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  outline: none;
+  border: none;
 }
 .product_card h4 {
   padding-top: 17px;
@@ -115,8 +122,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 87px;
-  height: 125px;
+  width: 80px;
+  height: 100px;
   flex-shrink: 0;
   border-radius: 40px 0px;
   background: #e54b4b;
@@ -130,7 +137,7 @@
   align-items: center;
   justify-content: center;
 }
-.stars{
-    position: absolute;
-    bottom: -40px;
+.stars {
+  position: absolute;
+  bottom: -40px;
 }

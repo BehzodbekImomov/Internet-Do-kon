@@ -1,8 +1,8 @@
 .shop {
-  padding: 122px 60px;
+  padding: 82px 70px 0 110px;
   display: grid;
   align-items: center;
-  width: 100%;
+  width: 75vw;
 }
 .vases {
   grid-column-start: 1;
@@ -43,6 +43,7 @@
   position: absolute;
   left: 0;
   z-index: -1;
+  height: 100vh;
 }
 .bowles {
   grid-column-start: 2;
@@ -54,13 +55,14 @@
 }
 .bowles img {
   position: absolute;
- left: 30px;
+ left: -37px;
   z-index: -1;
+  height: 50vh;
 }
 .bowles_title {
   position: absolute;
  left: 115px;
-  top: 143px;
+  top: 110px;
 }
 .bowles_title h3 {
   color: #fff;
@@ -94,13 +96,14 @@
 }
 .exclusivetiles img {
   position: absolute;
-left: -58px;
-  top: 14px;
+left: -115px;
+  top: -26px;
   z-index: -1;
+  height: 48vh;
 }
 .exclusivetiles_title {
   position: absolute;
-  bottom: 96px;
+  bottom: 140px;
   right: 190px;
 }
 .exclusivetiles_title h3 {

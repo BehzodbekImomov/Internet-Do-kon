@@ -18,7 +18,7 @@ const Products = () => {
         </div>
         <div className={styles.products_cards}>
           <div className={styles.product_card}>
-            <img src="/Rectangle2270.png" alt="img" />
+            <img className={styles.img} src="/Rectangle2270.png" alt="img" />
             <button>Add to cart</button>
             <h4>Desert plates</h4>
             <p>Lorem ipsum dolot sit amet</p>
@@ -36,7 +36,7 @@ const Products = () => {
             </div>
           </div>
           <div className={styles.product_card}>
-            <img src="/Rectangle22701.png" alt="img" />
+            <img className={styles.img} src="/Rectangle22701.png" alt="img" />
             <button>Add to cart</button>
             <h4>Desert plates</h4>
             <p>Lorem ipsum dolot sit amet</p>
@@ -55,7 +55,7 @@ const Products = () => {
             
           </div>{" "}
           <div className={styles.product_card}>
-            <img src="/Rectangle2270.png" alt="img" />
+            <img className={styles.img} src="/Rectangle2270.png" alt="img" />
             <button>Add to cart</button>
             <h4>Desert plates</h4>
             <p>Lorem ipsum dolot sit amet</p>
@@ -73,7 +73,7 @@ const Products = () => {
             </div>
           </div>
           <div className={styles.product_card}>
-            <img src="/Rectangle22701.png" alt="img" />
+            <img className={styles.img} src="/Rectangle22701.png" alt="img" />
             <button>Add to cart</button>
             <h4>Desert plates</h4>
             <p>Lorem ipsum dolot sit amet</p>

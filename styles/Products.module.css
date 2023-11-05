@@ -63,6 +63,15 @@
   background: #f2f2f2;
   position: relative;
 }
+.product_card:hover{
+  width: 289px;
+  padding-bottom: 18px;
+  background: #e2dede;
+  transition: all .3s ease-in-out;
+}
+.product_card:hover .img{
+  width: 289px;
+}
 .product_card button {
   width: 100%;
   height: 32px;

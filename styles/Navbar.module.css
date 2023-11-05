@@ -46,7 +46,7 @@
 .header_cart button:hover {
   opacity: 0.7;
 }
-.header_cart button img{
+.header_cart button img {
   height: 25px;
 }
 .header_cart .cart_price {
@@ -62,11 +62,11 @@
   margin-right: 6px;
   height: 22px;
 }
-.cart_icon{
+.cart_icon {
   width: 40px;
   height: 40px;
 }
-.cart_icon img{
+.cart_icon img {
   width: 40px;
   height: 40px;
 }
@@ -90,4 +90,18 @@
 
 .menu_item:hover {
   color: var(--secondary);
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 20px;
+  }
+  .header_menu {
+    position: fixed;
+    background: #ddd;
+    top: 63vh;
+    right: 0;
+    padding: 20px;
+    z-index: 10000;
+  }
 }

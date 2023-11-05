@@ -1,0 +1,125 @@
+.shop {
+  padding: 122px 60px;
+  display: grid;
+  align-items: center;
+  width: 100%;
+}
+.vases {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  position: relative;
+  width: 600.5px;
+  height: 713px;
+  flex-shrink: 0;
+}
+.vases_title {
+  position: absolute;
+  left: 57px;
+  top: 281px;
+}
+.vases_title h3 {
+  color: #fff;
+  font-family: Athene;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 23px;
+}
+.vases_title button {
+  padding: 16px 66px 16px 59px;
+  background: #d79453;
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+.vases img{
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+.bowles {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: relative;
+  width: 620.5px;
+  height: 357px;
+  flex-shrink: 0;
+}
+.bowles img {
+  position: absolute;
+ left: 30px;
+  z-index: -1;
+}
+.bowles_title {
+  position: absolute;
+ left: 115px;
+  top: 143px;
+}
+.bowles_title h3 {
+  color: #fff;
+  font-family: athene;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 18px;
+}
+.bowles_title button {
+  padding: 6px 32px 9px;
+  border: none;
+  background: #d79453;
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.exclusivetiles {
+  position: relative;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 700px;
+  height: 342px;
+  flex-shrink: 0;
+}
+.exclusivetiles img {
+  position: absolute;
+left: -58px;
+  top: 14px;
+  z-index: -1;
+}
+.exclusivetiles_title {
+  position: absolute;
+  bottom: 96px;
+  right: 190px;
+}
+.exclusivetiles_title h3 {
+  color: #fff;
+  font-family: Athene;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 18px;
+}
+.exclusivetiles_title button {
+  padding: 6px 32px 9px;
+  border: none;
+  background: #d79453;
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

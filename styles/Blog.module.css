@@ -1,0 +1,150 @@
+.blogs {
+  padding-top: 97px;
+  padding-bottom: 130px;
+}
+.blogs .desc {
+  color: #d79453;
+  font-family: Athene;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.blogs .title {
+  color: #411e51;
+  font-family: Athene;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding-top: 25px;
+}
+.cards {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 58px 63px;
+}
+.card {
+  position: relative;
+  width: 410px;
+  border: 1px solid #411e51;
+  border-bottom: none;
+}
+.card:hover {
+  width: 385.77px;
+  height: 552px;
+  flex-shrink: 0;
+  position: relative;
+  transition: all .3s ease-in;
+}
+.card img {
+  width: 410px;
+  height: 259px;
+  flex-shrink: 0;
+}
+.card:hover img {
+  width: 383.898px;
+  height: 242.511px;
+  flex-shrink: 0;
+  transition: all .3s ease-in;
+}
+.card:hover .blog {
+  width: 383.898px;
+  flex-shrink: 0;
+  background: #f2f2f2;
+  padding-bottom: 25px;
+  transition: all .3s ease-in;
+}
+.card:hover .blog .link {
+  padding-right: 255px;
+  transition: all .3s ease-in;
+}
+.card h4 {
+  color: #411e51;
+  font-family: SF Pro Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 52px 82px 28px 47px;
+}
+.blog p {
+  color: #411e51;
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0 83px 8px 47px;
+}
+.blog .link {
+  color: #d79453;
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  padding: 0 258px 25px 44px;
+}
+.data {
+  display: flex;
+  width: 410px;
+  padding: 24px 0;
+  background: #fff;
+  border: 1px solid #411e51;
+  border-left: none;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.card:hover .cards {
+  align-items: center;
+  transition: all .3s ease-in;
+
+}
+.card:hover .data {
+  width: 385px;
+  height: 70.225px;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+  border-left: 1px solid #411e51;
+  position: absolute;
+  top: 520px;
+  transition: all .3s ease-in;
+}
+.data:hover p {
+  color: #411e51;
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: all .3s ease-in;
+}
+.data p {
+  color: #411e51;
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  padding: 6px 15px 6px 17px;
+  border-radius: 10px 0px 0px 0px;
+  background: #fff;
+  color: #411e51;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

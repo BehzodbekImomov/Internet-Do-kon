@@ -1,0 +1,41 @@
+.intro {
+    width: 100%;
+  }
+  .intro .intro_slide {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro .intro_slide img {
+    width: 100%;
+  }
+  .intro_slide__info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro_slide__info h2 {
+    font-family: athene;
+    color: #fff;
+    font-size: 100px;
+    margin: 0;
+  }
+  .intro_slide__info p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .intro_slide__info button {
+    padding: 15px 37px;
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }

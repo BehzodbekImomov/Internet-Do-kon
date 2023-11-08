@@ -19,7 +19,7 @@ const Intro = () => {
     <div className={styles.intro}>
       <div className={styles.intro_slide}>
        <div>
-       <Carousel afterChange={onChange}>
+       <Carousel autoplay afterChange={onChange}>
           <div>
             <img style={contentStyle} src="/Rectangle2252.png" alt="sdvgwr" />
           </div>

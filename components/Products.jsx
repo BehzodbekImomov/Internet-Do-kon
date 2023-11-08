@@ -32,7 +32,7 @@ const Products = () => {
             Embroidery
           </Link>
         </div>
-        <div className={styles.products_catalogue_media}>
+        <div className={styles.slick}>
           <Slick />
         </div>
         <div className={styles.products_cards}>

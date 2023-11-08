@@ -33,8 +33,10 @@
   padding-bottom: 42px;
 }
 .form {
-  display: grid;
-  gap: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+ 
 }
 .form input {
   width: 400px;
@@ -75,14 +77,17 @@
         gap: 62px 106px;
       }
       .form input{
-        width: 180px;
+        width: 190px;
       }
       .footer h4{
         font-size: 20px;
       }
-    
       .li a {
         font-size: 15px;
+      }
+      .contact_us{
+       position: relative;
+       right: 30px;
       }
 }
 @media (max-width: 375px) {
@@ -95,13 +100,14 @@
     .form{
        display: grid;
        justify-content: center;
+       padding-left: 0;
        
     }
     .form input{
         width: 150px;
       }
       .form button{
-        width: 180px;
+        width: 150px;
         font-size: large;
       }
 }

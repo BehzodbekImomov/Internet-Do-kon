@@ -32,7 +32,7 @@ const Footer = () => {
 </div>
 
 </div>
-<div className={styles.contact}>
+<div className={styles.contact_us}>
   <h4>Contact us</h4>
   <form className={styles.form} action="">
   <input type="text" />

@@ -1,128 +1,131 @@
 .shop {
-  padding: 82px 70px 0 108px;
-  display: grid;
-  align-items: center;
-  width: 75vw;
-}
-.vases {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 4;
-  position: relative;
-  width: 600.5px;
+  width: 1306px;
   height: 713px;
+  padding: 122px 85px;
+  margin: 0 auto;
+  position: relative;
+}
+.shop_imgs {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.shop_imgs img {
+  width: 100%;
+  height: auto;
+}
+.shop_imgs .vases {
+  width: 603.5px;
+  z-index: -1;
+  flex-shrink: 0;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.shop_imgs .bowles {
+  width: 571.5px;
+  position: absolute;
+  top: 0;
+  left: 544px;
   flex-shrink: 0;
 }
-.vases_title {
+.shop_imgs .tiles {
+  width: 647px;
   position: absolute;
-  left: 57px;
-  top: 281px;
+  left: 470px;
+  top: 320px;
+  flex-shrink: 0;
 }
-.vases_title h3 {
+.shop_title {
+  position: absolute;
+  top: 0;
+  max-width: 1300px;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.title1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  padding-left: 57px;
+}
+.title1 h4 {
   color: #fff;
   font-family: Athene;
-  font-size: 70px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-bottom: 23px;
+  padding-top: 350px;
 }
-.vases_title button {
-  padding: 16px 66px 16px 59px;
-  background: #d79453;
-  color: #fff;
-  font-family: SF Pro Display;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  border: none;
-}
-.vases img{
-  position: absolute;
-  left: 0;
-  z-index: -1;
-  height: 100vh;
-}
-.bowles {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  position: relative;
-  width: 620.5px;
-  height: 357px;
+.title1 button {
+  width: 230px;
+  height: 61px;
   flex-shrink: 0;
-}
-.bowles img {
-  position: absolute;
- left: -37px;
-  z-index: -1;
-  height: 50vh;
-}
-.bowles_title {
-  position: absolute;
- left: 115px;
-  top: 110px;
-}
-.bowles_title h3 {
-  color: #fff;
-  font-family: athene;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding-bottom: 18px;
-}
-.bowles_title button {
-  padding: 6px 32px 9px;
-  border: none;
-  background: #d79453;
   color: #fff;
   font-family: SF Pro Display;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  background: #d79453;
+  border: none;
 }
-.exclusivetiles {
-  position: relative;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  width: 700px;
-  height: 342px;
-  flex-shrink: 0;
+.title2 {
+  padding-top: 220px;
+  padding-left: 220px;
 }
-.exclusivetiles img {
-  position: absolute;
-left: -115px;
-  top: -26px;
-  z-index: -1;
-  height: 48vh;
-}
-.exclusivetiles_title {
-  position: absolute;
-  bottom: 140px;
-  right: 190px;
-}
-.exclusivetiles_title h3 {
+.title2 h4 {
   color: #fff;
   font-family: Athene;
-  font-size: 50px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-bottom: 18px;
 }
-.exclusivetiles_title button {
-  padding: 6px 32px 9px;
-  border: none;
-  background: #d79453;
+.title2 button {
   color: #fff;
   font-family: SF Pro Display;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  border: none;
+  width: 147.049px;
+  height: 39px;
+  flex-shrink: 0;
+  background: #d79453;
+}
+.title3 {
+  padding-top: 200px;
+  padding-left: 100px;
+}
+.title3 h4 {
+  color: #fff;
+  font-family: Athene;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title3 button {
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  width: 147.049px;
+  height: 39px;
+  flex-shrink: 0;
+  background: #d79453;
+}
+@media (max-width: 992px) {
+  .shop {
+    display: none;
+  }
 }

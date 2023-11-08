@@ -1,41 +1,88 @@
 .intro {
-    width: 100%;
-  }
-  .intro .intro_slide {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .intro .intro_slide img {
-    width: 100%;
-  }
-  .intro_slide__info {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  
+}
+.intro .intro_slide {
+position: relative;
+
+}
+.intro .intro_slide img {
+  width: 100%;
+}
+.intro_slide__info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 40vh;
+  left: 50vh;
+}
+.intro_slide__info h2 {
+  font-family: athene;
+  color: #fff;
+  font-size: 100px;
+  margin: 0;
+}
+.intro_slide__info p {
+  color: #fff;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.intro_slide__info button {
+  padding: 15px 37px;
+  background-color: var(--secondary);
+  color: white;
+  border: none;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .intro_slide__info{
+    top: 15vh;
+    left: 25vh;
   }
   .intro_slide__info h2 {
-    font-family: athene;
-    color: #fff;
-    font-size: 100px;
-    margin: 0;
+    font-size: 70px;
   }
   .intro_slide__info p {
-    color: #fff;
-    font-weight: normal;
     font-size: 20px;
-    margin-bottom: 25px;
   }
   .intro_slide__info button {
-    padding: 15px 37px;
-    background-color: var(--secondary);
-    color: white;
-    border: none;
-    font-size: 25px;
-    font-weight: bold;
-    cursor: pointer;
+    padding: 12px 37px;
+    font-size: 20px;
   }
+}
+
+@media (max-width: 576px) {
+  .intro_slide__info{
+    top: 10vh;
+    left: 12vh;
+  }
+  .intro_slide__info h2 {
+    font-size: 50px;
+  }
+  .intro_slide__info p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 450px) {
+  .intro_slide__info{
+    top: 5vh;
+    left: 10vh;
+  }
+  .intro_slide__info h2 {
+    font-size: 30px;
+  }
+  .intro_slide__info p {
+    font-size: 10px;
+  }
+  .intro_slide__info button {
+    padding: 10px 27px;
+    font-size: 14px;
+  }
+}

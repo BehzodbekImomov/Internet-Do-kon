@@ -41,7 +41,6 @@ const Footer = () => {
   </form>
 </div>
       </div>
-
     </div>
    </footer>
   )

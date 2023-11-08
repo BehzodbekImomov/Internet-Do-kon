@@ -1,27 +1,26 @@
 .footer {
-  padding: 60px 250px ;
+  padding: 60px 250px;
   display: flex;
-  gap:72px 226px;
+  gap: 72px 226px;
   flex-wrap: wrap;
 
 }
-.li{
-    display: grid;
-    gap: 10px;
-    
+.li {
+  display: grid;
+  gap: 10px;
 }
-.li a{
-    color: rgba(255, 255, 255, 0.65);
-    font-family: SF Pro Display;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
+.li a {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
 }
-.li a:hover{
-    color: #FFF;
-transition: all 0.3s ease-in-out;
+.li a:hover {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 .footer h4 {
   color: #fff;
@@ -33,30 +32,75 @@ transition: all 0.3s ease-in-out;
   padding-left: 4px;
   padding-bottom: 42px;
 }
-.form{
-    display: grid;
-    gap: 18px;
+.form {
+  display: grid;
+  gap: 18px;
 }
-.form input{
-    width: 400px;
-height: 40px;
-flex-shrink: 0;
-background: #FFF;
-padding: 0 20px;
-color:rgba(148, 142, 142, 0.65) ;
-font-family: SF Pro Display;
-font-size: 18px;
+.form input {
+  width: 400px;
+  height: 40px;
+  flex-shrink: 0;
+  background: #fff;
+  padding: 0 20px;
+  color: rgba(148, 142, 142, 0.65);
+  font-family: SF Pro Display;
+  font-size: 18px;
 }
-.form button{
-    padding: 10px 35px 10px 35px;
-    width: 190px;
-    color: #FFF;
-    font-family: SF Pro Display;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-flex-shrink: 0;
-background: #D79453;
-border: none;
+.form button {
+  padding: 10px 35px 10px 35px;
+  width: 190px;
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  flex-shrink: 0;
+  background: #d79453;
+  border: none;
+}
+@media (max-width: 992px) {
+  .footer {
+    padding: 60px 150px;
+    gap: 62px 106px;
+  }
+  .form input{
+    width: 350px;
+  }
+}
+@media (max-width: 768px) {
+    .footer {
+
+        padding: 60px 130px 100px ;
+        gap: 62px 106px;
+      }
+      .form input{
+        width: 280px;
+      }
+      .footer h4{
+        font-size: 20px;
+      }
+      .li a {
+        font-size: 15px;
+      }
+}
+@media (max-width: 375px) {
+    .footer h4{
+        text-align: center;
+    }
+    .li a{
+        text-align: center;
+    }
+    .form{
+       display: grid;
+       justify-content: center;
+       
+    }
+    .form input{
+        width: 150px;
+      }
+      .form button{
+        width: 150px;
+        font-size: large;
+      }
 }

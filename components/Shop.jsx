@@ -4,27 +4,32 @@ const Shop = () => {
   return (
     <div>
       <div className="container">
+       
         <div className={styles.shop}>
-          <div className={styles.vases}>
-         <div className={styles.vases_title}> 
-         <h3>Shop vases</h3>
-          <button>Shop now</button>
+          <div className={styles.shop_imgs}>
+         <div className={styles.vases}>
+         <img  src="/Rectangle2273.png" alt="img" />
          </div>
-          <img src="/Rectangle2273.png" alt="img" />
+            <div className={styles.bowles}>
+            <img  src="/Rectangle2275.png" alt="img" />
+            </div>
+           <div className={styles.tiles}>
+           <img  src="/Rectangle2274.png" alt="img" />
+           </div>
           </div>
-          <div className={styles.bowles}>
-         <div className={styles.bowles_title}> 
-         <h3>Shop bowls</h3>
-          <button>Shop now</button>
-         </div>
-          <img src="/Rectangle2275.png" alt="img" />
-          </div>
-          <div className={styles.exclusivetiles}>
-           <div className={styles.exclusivetiles_title}> 
-         <h3>Shop exclusive tiles</h3>
-          <button>Shop now</button>
-         </div>
-          <img src="/Rectangle2274.png" alt="img" />
+          <div className={styles.shop_title}>
+            <div className={styles.title1}>
+              <h4>Shop vases</h4>
+              <button>Shop now</button>
+            </div>
+            <div className={styles.title2}>
+              <h4>Shop bowls</h4>
+              <button>Shop now</button>
+            </div>
+            <div className={styles.title3}>
+              <h4>Shop exclusive tiles</h4>
+              <button>Shop now</button>
+            </div>
           </div>
         </div>
       </div>

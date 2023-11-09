@@ -246,6 +246,11 @@
   .product_card:hover .img {
     width: 148px;
   }
+  .skidka {
+    width: 45px;
+    height: 70px;
+    font-size:15px;
+  }
 }
 @media (max-width: 576px) {
   .products {
@@ -292,6 +297,11 @@
   }
   .price_out {
     font-size: 10px;
+  }
+  .skidka {
+    width: 45px;
+    height: 70px;
+    font-size:15px;
   }
   .stars {
     width: 100px;
